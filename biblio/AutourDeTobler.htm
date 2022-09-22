@@ -1,0 +1,4037 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Rapport Zotero</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9CgpkaXYgdGFibGUgewoJYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsKfQoKZGl2IHRhYmxlIHRkLCBkaXYgdGFibGUgdGggewoJYm9yZGVyOiAxcHggI2NjYyBzb2xpZDsKCWJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7Cgl3b3JkLWJyZWFrOiBicmVhay1hbGw7Cn0KCmRpdiB0YWJsZSB0ZCBwOmVtcHR5OjphZnRlciwgZGl2IHRhYmxlIHRoIHA6ZW1wdHk6OmFmdGVyIHsKCWNvbnRlbnQ6ICJcMDBhMCI7Cn0KCmRpdiB0YWJsZSB0ZCAqOmZpcnN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpmaXJzdC1jaGlsZCB7CgltYXJnaW4tdG9wOiAwOwp9CgpkaXYgdGFibGUgdGQgKjpsYXN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpsYXN0LWNoaWxkIHsKCW1hcmdpbi1ib3R0b206IDA7Cn0K">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_Z2RX69KY" class="item encyclopediaArticle">
+			<h2>Waldo R. Tobler</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article d'encyclopédie</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://en.wikipedia.org/w/index.php?title=Waldo_R._Tobler&amp;oldid=953708237">https://en.wikipedia.org/w/index.php?title=Waldo_R._Tobler&amp;oldid=953708237</a></td>
+					</tr>
+					<tr>
+					<th>Autorisations</th>
+						<td>Creative Commons Attribution-ShareAlike License</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>avril 2020</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Page Version ID: 953708237</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>01/06/2020 à 15:35:46</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>Wikipedia</td>
+					</tr>
+					<tr>
+					<th>Titre de l'encycl.</th>
+						<td>Wikipedia</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Waldo Rudolph Tobler (November 16, 1930 – February 20, 2018) 
+was an American-Swiss geographer and cartographer. Tobler's idea that 
+"Everything is related to everything else, but near things are more 
+related than distant things"  is referred to as the "first law of 
+geography." He has proposed a second law as well: "The phenomenon 
+external to an area of interest affects what goes on inside". Tobler was
+ an active Professor Emeritus at the University of California, Santa 
+Barbara Department of Geography until his death.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 15:35:46</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 14:10:41</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Pièces jointes</h3>
+				<ul class="attachments">
+					<li id="item_J7E46W5Q">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_KC6V98RS" class="item computerProgram">
+			<h2>Darcy. Logiciel de transformation cartographique vectorielle</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Logiciel</td>
+					</tr>
+					<tr>
+						<th class="programmer">Programmeur</th>
+						<td>Gilles Vuidel</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://sourcesup.renater.fr/www/transcarto/darcy/">https://sourcesup.renater.fr/www/transcarto/darcy/</a></td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>02/01/2022 à 10:25:38</td>
+					</tr>
+					<tr>
+					<th>Version</th>
+						<td>2.4.2</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Le logiciel Darcy permet d'appliquer une méthode de 
+comparaison spatiale, dénommée « régression bidimensionnelle », 
+développée par W. Tobler entre 1965 et 1977. Cette méthode autorise la 
+comparaison de deux surfaces distinctes déterminées par des points 
+homologues définis respectivement par les coordonnées [XY] (référentiel)
+ et [UV] (image à comparer). Les points de l'image à comparer à un 
+référentiel correspondent au phénomène étudié : positions en temps 
+d'accès, positions estimées en cognition spatiale, positions sur des 
+cartes anciennes...
+La méthode comprend deux étapes : un ajustement et une interpolation. 
+Elle aboutit à d'abondants résultats tant statistiques que 
+cartographiques ; les cartes montrent les distorsions spatiales liées 
+aux écarts entre le référentiel et la surface étudiée : vecteurs de 
+déplacement, anamorphoses...
+Les résultats doivent être analysés avec précaution en tenant compte du 
+thème, des hypothèses émises et des données entrées. Chaque thème induit
+ une réflexion nouvelle sur les indices et les cartes obtenus.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>02/01/2022 à 10:25:38</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>02/01/2022 à 10:31:31</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Pièces jointes</h3>
+				<ul class="attachments">
+					<li id="item_DIBRCWRL">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_YBK276R5" class="item journalArticle">
+			<h2>Waldo Tobler, winner 2016</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>URISA</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://urisa.maps.arcgis.com/apps/MapSeries/index.html?appid=5c945e41c5b146c09c7ba6f9991b623">http://urisa.maps.arcgis.com/apps/MapSeries/index.html?appid=5c945e41c5b146c09c7ba6f9991b623</a></td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>URISA's GIS Hall of Fame</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2013</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 15:30:13</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>12/02/2021 à 21:50:17</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>⛔ No DOI found</li>
+				</ul>
+			</li>
+
+
+			<li id="item_IBVQAMVN" class="item journalArticle">
+			<h2>Waldo Tobler: An appreciation of the contributions made to geographic information science</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>David Unwin</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/tgis.12529">https://onlinelibrary.wiley.com/doi/abs/10.1111/tgis.12529</a></td>
+					</tr>
+					<tr>
+					<th>Autorisations</th>
+						<td>© 2019 John Wiley &amp; Sons Ltd</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>23</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>387-393</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Transactions in GIS</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1467-9671</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/tgis.12529</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10/gh2tsx">10/gh2tsx</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>01/06/2020 à 15:19:02</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>Wiley Online Library</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Waldo Tobler</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 15:19:02</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>12/02/2021 à 21:50:19</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Pièces jointes</h3>
+				<ul class="attachments">
+					<li id="item_PKNNTP8Y">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_JLV2KRHL" class="item journalArticle">
+			<h2>Geographer Hall of Fame – Waldo Tobler</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.justinholman.com/2012/06/19/geographer-hall-of-fame-waldo-tobler/">https://www.justinholman.com/2012/06/19/geographer-hall-of-fame-waldo-tobler/</a></td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>Comments</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1 page web</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Geographical Perspectives</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2012</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>www.justinholman.com</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>One of the things in our culture that makes me sick to my 
+stomach is the celebrity worship.  Everyone knows all the personal 
+details and career history of all the top actors, actresses, musicians, 
+models, athletes, and other performers.  But, n [...]</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 15:32:50</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>12/02/2021 à 21:50:18</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>⛔ No DOI found</li>
+				</ul>
+			</li>
+
+
+			<li id="item_BVK8Y5Q7" class="item presentation">
+			<h2>Kudos to Professor Emeritus Waldo Tobler</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Présentation</td>
+					</tr>
+					<tr>
+						<th class="presenter">Présentateur</th>
+						<td>UCSB</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://geog.ucsb.edu/kudos-to-professor-emeritus-waldo-tobler/">https://geog.ucsb.edu/kudos-to-professor-emeritus-waldo-tobler/</a></td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Santa Barbara (Ca)</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2012</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 15:11:20</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 15:16:54</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_8SCVXMSZ" class="item presentation">
+			<h2>Waldo R. Tobler, Geography Professor Emeritus (1930-2018)"</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Présentation</td>
+					</tr>
+					<tr>
+						<th class="presenter">Présentateur</th>
+						<td>UCSB</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>, https://geog.ucsb.edu/waldo-r-tobler-geography-professor-emeritus-passes-away/</td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Santa Barbara (Ca)</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>Intitulé de la réunion</th>
+						<td>Hommage de l'UCSB à Waldo Tobler</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 14:23:02</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 14:24:29</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_GAU6X49X" class="item presentation">
+			<h2>Waldo Tobler Memorial Lecture Fund</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Présentation</td>
+					</tr>
+					<tr>
+						<th class="presenter">Présentateur</th>
+						<td>UCSB</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://giving.ucsb.edu/Funds/Give?id=339">https://giving.ucsb.edu/Funds/Give?id=339</a></td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 14:12:42</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 14:15:08</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_2XNAIH9M" class="item bill">
+			<h2>Waldo Tobler Memorial Lecture Fund</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Projet/proposition de loi</td>
+					</tr>
+					<tr>
+						<th class="sponsor">Auteur</th>
+						<td>UCSB</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://giving.ucsb.edu/Funds/Give?id=339">https://giving.ucsb.edu/Funds/Give?id=339</a></td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 15:40:00</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>01/06/2020 à 15:41:07</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_TBPWC3ZN" class="item journalArticle">
+			<h2>Waldo R. Tobler</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>UCGIS</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ucgis.org/waldo-r--tobler">https://www.ucgis.org/waldo-r--tobler</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>Awarded year</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1 page web</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>University Consortium for Geographic Information Science (UCGIS)</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2012</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>UCGIS</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 15:27:12</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>12/02/2021 à 21:50:21</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>⛔ No DOI found</li>
+				</ul>
+			</li>
+
+
+			<li id="item_927Z6UAH" class="item manuscript">
+			<h2>Des cartes choroplèthes sans classes ?</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Manuscrit</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Waldo Tobler</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Laurent Jégou</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://hal.archives-ouvertes.fr/hal-03777114">https://hal.archives-ouvertes.fr/hal-03777114</a></td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2022-09</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>21/09/2022 à 19:00:12</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>HAL Archives Ouvertes</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Version bilingue traduite et commentée de la note de W. R. Tobler, Geographical Analysis, 5(3): 262-265</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 19:00:12</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 19:04:05</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+					<li>CARTOGRAPHIE</li>
+					<li>TOBLER</li>
+					<li>TRADUCTION</li>
+					<li>CARTOGRAPHY</li>
+					<li>CHOROPLETHE</li>
+					<li>CHOROPLETHS</li>
+					<li>TRANSLATION</li>
+				</ul>
+			</li>
+
+
+			<li id="item_VTXKXF9U" class="item manuscript">
+			<h2>Statistical cartography: what it is ?</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Manuscrit</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Waldo Tobler</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Françoise Bahoken</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://hal.archives-ouvertes.fr/hal-03739509">https://hal.archives-ouvertes.fr/hal-03739509</a></td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2022-01</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>21/09/2022 à 18:58:32</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>HAL Archives Ouvertes</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Statistical cartography</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 18:58:32</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 18:58:32</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>CARTOGRAPHIE</li>
+					<li>TOBLER</li>
+					<li>STATISTIQUE</li>
+					<li>TRADUCTION</li>
+				</ul>
+			</li>
+
+
+			<li id="item_I9BYLYEB" class="item manuscript">
+			<h2>Waldo R. Tobler, 1969, Review of Sémiologie graphique: Les 
+Diagrammes – Les réseaux – Les Cartes, Journal of the American 
+Statistical Association, 24(325):391-392. Version bilingue et commentée</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Manuscrit</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Waldo Tobler</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Françoise Bahoken</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://hal.archives-ouvertes.fr/hal-03583854">https://hal.archives-ouvertes.fr/hal-03583854</a></td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2022-02</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>21/09/2022 à 18:59:50</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>HAL Archives Ouvertes</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Waldo R. Tobler, 1969, Review of Sémiologie graphique</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 18:59:50</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 19:04:30</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+				</ul>
+			</li>
+
+
+			<li id="item_GL8JLNZ8" class="item manuscript">
+			<h2>L'automation dans la préparation des cartes thématiques</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Manuscrit</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Waldo Tobler</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://hal.archives-ouvertes.fr/hal-03773410">https://hal.archives-ouvertes.fr/hal-03773410</a></td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1966</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>21/09/2022 à 18:59:37</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>HAL Archives Ouvertes</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Version française de l'article Automation and cartography 
+publié par Waldo R. Tobler dans la revue Geographical Review, vol. 49, 
+n°4, pp. 526-534.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 18:59:37</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 19:05:32</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>cartographie</li>
+					<li>TTT-HAL</li>
+					<li>Tobler</li>
+					<li>automation</li>
+				</ul>
+			</li>
+
+
+			<li id="item_S8NETSAC" class="item presentation">
+			<h2>Waldo R. Tobler of Santa Barbara, 1930–2018</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Présentation</td>
+					</tr>
+					<tr>
+						<th class="presenter">Présentateur</th>
+						<td>S. Thoits</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>www.noozhawk.com/article/ waldo_r._tobler_of_santa_barbara_1930_2018</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>mars 2018</td>
+					</tr>
+					<tr>
+					<th>Intitulé de la réunion</th>
+						<td>Obituaries in Noozhawk News</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 14:24:30</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 14:26:00</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_7BM3UI2L" class="item presentation">
+			<h2>Waldo Tobler</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Présentation</td>
+					</tr>
+					<tr>
+						<th class="presenter">Présentateur</th>
+						<td>The Archaeological Institute of America (AIA)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://geog.ucsb.edu/waldo-tobler-receives-the-2014-pomerance-award-for-scientific-contributions-to-archaeology/">https://geog.ucsb.edu/waldo-tobler-receives-the-2014-pomerance-award-for-scientific-contributions-to-archaeology/</a></td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Santa Barbara (Ca)</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2014</td>
+					</tr>
+					<tr>
+					<th>Type</th>
+						<td>Award</td>
+					</tr>
+					<tr>
+					<th>Intitulé de la réunion</th>
+						<td>Pomerance Award for scientific Contributions to Archaeology</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>UCSB Emeritus Professor of Geography, Waldo Tobler, was given 
+the 2014 AIA Pomerance Award for Scientific Contributions to 
+Archaeology, an award made annually for the past 33 years. Eligibility 
+is not restricted to members of the AIA, and candidates for the medal 
+may be sought internationally with no geographical limitations. The 
+recipient may be a professional or amateur scientist, or a team, whose 
+interdisciplinary work with archaeologists merits recognition. Persons 
+who have received the Gold Medal of the AIA are not excluded from 
+eligibility.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 15:07:31</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 15:11:20</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_TLPSUXB5" class="item journalArticle">
+			<h2>Tobler's First Law of Geography: A Big Idea for a Small World?</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Daniel Z. Sui</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1111/j.1467-8306.2004.09402003.x">https://doi.org/10.1111/j.1467-8306.2004.09402003.x</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>94</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>269-277</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Annals of the Association of American Geographers</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0004-5608</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>June 1, 2004</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Routledge
+_eprint: https://doi.org/10.1111/j.1467-8306.2004.09402003.x</td>
+					</tr>
+					<tr>
+					<th>Abrév. de revue</th>
+						<td>AAAG</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10/fk249f">10/fk249f</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>01/06/2020 à 14:52:34</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>Taylor and Francis+NEJM</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>eng</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>CC - La motivation de ce forum est assez simple : procéder à 
+une évaluation exploratoire de la TFL, et ce faisant, pour réfléchir sur
+ la nature de la recherche géographique et les aspects essentiels du 
+monde réel d'un point de vue géographique</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Tobler's First Law of Geography</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 14:52:34</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>12/02/2021 à 21:50:29</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Pièces jointes</h3>
+				<ul class="attachments">
+					<li id="item_WCE5UY3J">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_HT9GBD6Y" class="item journalArticle">
+			<h2>Tobler's First LaUnlawful Relations and Verbal Inflationw of Geography: A Big Idea for a Small World?</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Jonathan Smith</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1111/j.1467-8306.2004.09402003.x">https://doi.org/10.1111/j.1467-8306.2004.09402003.x</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>94</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>294-299</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Annals of the Association of American Geographers</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0004-5608</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>June 1, 2004</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Routledge
+_eprint: https://doi.org/10.1111/j.1467-8306.2004.09402003.x</td>
+					</tr>
+					<tr>
+					<th>Abrév. de revue</th>
+						<td>AAAG</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10/fk249f">10/fk249f</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>01/06/2020 à 14:52:34</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>Taylor and Francis+NEJM</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>eng</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>CC - Selon M. Smith, trois conditions doivent être remplies 
+pour qu'une déclaration soit acceptée comme loi : elle doit être 
+universelle, synthétique et nécessaire. Smith décompose la TFL en deux 
+propositions - la proposition métaphysique et la proposition 
+géographique - dont aucune n'est strictement vraie selon sa définition 
+d'une loi. Il exprime son malaise face à l'nﬂation verbale qui élève non
+ seulement les généralisations nomologiques, mais aussi les 
+généralisations accidentelles, les déclarations analytiques et les 
+règles empiriques au rang de lois. Il affirme que l'utilisation 
+désinvolte du mot "loi" a donné naissance à une inflation verbale qui 
+rend difficile de différencier le faux du vrai dans le discours 
+universitaire</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Tobler's First Law of Geography</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 15:06:10</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>12/02/2021 à 21:50:26</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_ALTNHIZT" class="item bookSection">
+			<h2>The paradigms of american cartography. Analytical Cartography</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Chapitre de livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>T. Slocum</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>R. McMaster</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>F. C. Kessler</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>H. H. Howard</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>chapitre 2</td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>New Jersey (E-U)</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>Pearson Prentice Hall,</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>30-31</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>013229834  978-0132298346</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2005</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Titre du livre</th>
+						<td>Thematic cartography and geography visualization</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 14:37:48</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 14:43:54</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_2BGJNZVD" class="item presentation">
+			<h2>Les projections hyperelliptiques de Waldo Tobler</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Présentation</td>
+					</tr>
+					<tr>
+						<th class="presenter">Présentateur</th>
+						<td>Ph. Rivière</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://visionscarto.net/projections-hyperelliptiques">https://visionscarto.net/projections-hyperelliptiques</a></td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>Intitulé de la réunion</th>
+						<td>Visionscarto,</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>French</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 14:43:54</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 14:45:26</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_5HPXNF47" class="item journalArticle">
+			<h2>Doing Justice to the Law</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Jonathan Phillips</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1111/j.1467-8306.2004.09402005.x">https://doi.org/10.1111/j.1467-8306.2004.09402005.x</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>94</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>290-293</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Annals of the Association of American Geographers</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0004-5608</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>June 1, 2004</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Routledge
+_eprint: https://doi.org/10.1111/j.1467-8306.2004.09402005.x</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10/dh39xr">10/dh39xr</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>01/06/2020 à 14:58:31</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>Taylor and Francis+NEJM</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>CC - Phillips observe que la TFL est souvent (mais pas 
+toujours) vraie et pertinente pour aider les géographes physiques à 
+comprendre comment fonctionne le système terre-surface. Selonsa propre 
+recherche inspirée par la perspective de la dynamique non linéaire, 
+Phillips soutient que les lois générales et les conditions locales 
+devraient être prises en compte afin de mieux comprendre la complexité 
+des systèmes de la surface terrestre. Il apporte également un changement
+ intéressant dans l'interprétation de la TFL : accepter la TFL remet en 
+question une approche de la science et de la géographie strictement 
+fondées sur les lois. Le message de Phillips est que ce n'est qu'en 
+acceptant ce défi que nous pourrons rendre justice à la TFL.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 15:00:17</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>12/02/2021 à 21:50:27</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_58L339E5" class="item bookSection">
+			<h2>Analytical Cartography</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Chapitre de livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Lan Mu</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>K.K. Kemp</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://dx.doi.org/10.4135/9781412953962">http://dx.doi.org/10.4135/9781412953962</a></td>
+					</tr>
+					<tr>
+					<th>Édition</th>
+						<td>Sage Publications, Inc</td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>London (UK)</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>9-10</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>10 : 1412913136  13 : 978-1412913133</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2008</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Titre du livre</th>
+						<td>Encyclopedia of geographic Information Science</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 14:46:30</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>01/06/2020 à 14:51:19</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_UU3DXC3A" class="item journalArticle">
+			<h2>Waldo R. Tobler (1930–2018)</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>M. S. Monmonnier</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1080/03085694.2019.1529916">https://doi.org/10.1080/03085694.2019.1529916</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>71</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>87-88</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Imago Mundi</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10/gh2tsw">10/gh2tsw</a></td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 14:59:19</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>12/02/2021 à 21:50:09</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_53ZFSGDC" class="item journalArticle">
+			<h2>Tobler's First Law and Spatial Analysis</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Harvey J. Miller</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1111/j.1467-8306.2004.09402005.x">https://doi.org/10.1111/j.1467-8306.2004.09402005.x</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>94</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>284-289</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Annals of the Association of American Geographers</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0004-5608</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>June 1, 2004</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Routledge
+_eprint: https://doi.org/10.1111/j.1467-8306.2004.09402005.x</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10/dh39xr">10/dh39xr</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>01/06/2020 à 14:58:31</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>Taylor and Francis+NEJM</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>CC - Miller accepte le TFL comme une régularité raisonnable 
+qui est généralement vraie dans le monde obervé. Avec les progrès 
+continus de l'analyse spatiale ainsi que les avancées des systèmes et 
+des sciences SIG, Miller pense que la TFL continuera à évoluer à mesure 
+que les équipements évolueront pour mener des analyses détaillées des " 
+proches " et des " connexes"</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 14:58:31</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>12/02/2021 à 21:50:28</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Pièces jointes</h3>
+				<ul class="attachments">
+					<li id="item_RWGGWBHZ">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_GXNQHAP5" class="item journalArticle">
+			<h2>A History of Twentieth-Century American Academic Cartography</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>R. McMaster</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>S. McMaster</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.tandfonline.com/doi/abs/10.1559/152304002782008486">https://www.tandfonline.com/doi/abs/10.1559/152304002782008486</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>29</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>305-321</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Cartography and Geographic Information Science</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2002</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10/c23mzt">10/c23mzt</a></td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>The academic discipline of cartography is a twentieth-century 
+phenomenon. From its incipient roots in landscape representation in 
+geology and the mapping of socio-economic data in geography, it grew 
+into its own sub-discipline with graduate programs, research paradigms, 
+and a scientific literature of its own. It came close to establishing a 
+national center for cartography In the late 1960s. After rather sporadic
+ activity before World War II, the period from 1946 to 1986 saw the 
+building of major graduate programs at the universities of Wisconsin, 
+Kansas, and Washington. Other programs were created, often with the 
+doctoral students from those three. At the end of the twentieth century,
+ cartography underwent significant changes in relation to the emerging 
+discipline of geographic information science. The future for academic 
+cartography is less certain, as graduate programs adjust the balances 
+among the many components of mapping science, including cartography, 
+geovisualization, GI science, GIS systems, spatial analysis/statistics, 
+and remote sensing.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 15:03:51</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>12/02/2021 à 21:50:08</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_C2NTJLAJ" class="item bookSection">
+			<h2>Analytical Cartography</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Chapitre de livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>M. Lan</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>K.K. Kemp</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://dx.doi.org/10.4135/9781412953962.n6">http://dx.doi.org/10.4135/9781412953962.n6</a></td>
+					</tr>
+					<tr>
+					<th>Édition</th>
+						<td>Sage Publications, Inc</td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>London</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>Sage</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>9-10</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2008</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Titre du livre</th>
+						<td>Encyclopedia of geographic Information Science</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 14:50:29</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 14:52:39</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_JH9YD3H6" class="item conferencePaper">
+			<h2>Vers une relecture du Flowmapper - Tribute to Tobler (TTT)</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de colloque</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Nicolas Lambert</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Françoise Bahoken</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Etienne Come</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://hal.archives-ouvertes.fr/hal-03434168">https://hal.archives-ouvertes.fr/hal-03434168</a></td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Toulouse, France</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>9p</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>14-16/6/2021</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>21/09/2022 à 17:53:16</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>HAL Archives Ouvertes</td>
+					</tr>
+					<tr>
+					<th>Intitulé du colloque</th>
+						<td>Cartomob - Tous (im)mobiles, tous cartographes ?</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 17:53:16</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 18:48:03</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+					<li>CARTOGRAPHIE</li>
+					<li>CARTOMOB</li>
+					<li>FLUX</li>
+					<li>MATRICE ORIGINE DESTINATION</li>
+					<li>MOUVEMENT</li>
+					<li>TOBLER</li>
+				</ul>
+			</li>
+
+
+			<li id="item_DLYMHBUS" class="item conferencePaper">
+			<h2>An extension of the Tobler's law? Influence of the metric to 
+compute the distance between an optimal facility and its demand points</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de colloque</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Didier Josselin</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://hal.archives-ouvertes.fr/hal-03505831">https://hal.archives-ouvertes.fr/hal-03505831</a></td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Manchester, United Kingdom</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021-11</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>21/09/2022 à 17:49:14</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>HAL Archives Ouvertes</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>This research work presents an extension of the Tobler’s first
+ law (TFL), that includes the metric used to measure the distance 
+between a center and its demand points, in an optimal facility location 
+problem framework (Hakimi, 1964). It provides a short overview of the 
+works derived from the TFL and opens on the definition of a second law, 
+less geographical and more mathematical. Indeed, its seems the distance,
+ that is to say in our case a Lp-norm (a generalized Minkowski distance)
+ considered to estimate a proximity between two points, has a strong 
+weight on the meaning and on the shape of the TFL. 
+
+We organise our talk in several steps. We first recall the foundations 
+and the geographical meaning of the Tobler’s first law (1970, 1971) 
+which is still considered as a solid and reliable base in many 
+disciplines (for instance, see the introduction in Cressie &amp; Moores,
+ 2021). This led to many citations of this law, which is indeed a 
+geographically verified assumption rather than a demonstrated law. 
+
+We first draw a short history of this law (Cauvin &amp; Reymond, 1991, 
+Miller, 2004, Sui, 2004), provide a few examples of its usages 
+(Grasland, 2009, Hecht &amp; Moxley, 2009) and its extensions, 
+especially in the context of the Santa-Barbara’s research group 
+(Couclelis, 1996, Montello et al. 2003). We list and summarize several 
+attempts to design a complementary or alternative second law in 
+quantitative geography (Goodchild in Sui, 2004, Hecht &amp; Moxley, 
+2009, Foresman &amp; Luscombe, 2017, Josselin et al., 2017). 
+
+Then, in a second section, we move on transport and mobility concerns. 
+We define the different purposes (efficacy, equity) of the principal 
+centers used in geography (Beguin, 1989) and optimal location problem 
+solving: k-median and k-center notably, to which we add the k-barycenter
+ (modelling equality), that has interesting intermediate properties. We 
+link these centers to their well-known objective functions.
+
+In a third section, we focus on the 1-facility optimal location, a 
+refined formal framework to explain how we generalize the optimal center
+ through Lp-norms (Peeters &amp; Thomas, 2000). Using sensitivity 
+analysis (Drezner &amp; Hamacher, 2004), we find out by computation a 
+generalized fonction linking center location sensitivity, demand point 
+influence and distance between the center and the demands 
+(Ciligot-Travain &amp; Josselin, 2013, Josselin et al., 2016). 
+
+We use this function to draw new balanced optimal locations, 
+respectively with p=1.5 and p=3 in the Lp-norm. For those, we map the 
+demand point spatial influence of the center location. We develop more 
+deeply the L3-norm, which catches our attention: it shows a particular 
+property of a linear relation between the demand points weights and 
+their distance to the optimel center. As we did previously with 
+well-known k-median and k-center metrics, we associate new optimal 
+centers a semantic, respectively “effility” and “equaquity” to those two
+ compromises.
+
+In conclusion, we suggest how, in practical urban planning, our 
+theoretical results can be potentially used to tune the effect of the 
+distance on the demand point influence on the center. Finally, we draw 
+up a comparison between our geographical law and the TFL: is our law an 
+extension of the TFL or a second complementary law? We open a discussion
+ about the proximity and distance collapse or reinforcement, as H. 
+Couclelis put forward in 1996 and which is still a hot issue, from our 
+perspective.</td>
+					</tr>
+					<tr>
+					<th>Titre des actes</th>
+						<td>European Colloquium on Theoretical and Quantitative Geography (ECTQG) 2021</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>An extension of the Tobler's law?</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 17:49:14</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 17:49:40</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>distance</li>
+					<li>TTT-HAL</li>
+					<li>1-facility location problem</li>
+					<li>Lp-norms</li>
+					<li>spatial compromise</li>
+					<li>Tobler's First Law</li>
+				</ul>
+			</li>
+
+
+			<li id="item_JA7XT2AZ" class="item conferencePaper">
+			<h2>La seconde loi cachée de la géographie - Influence du mode de calcul de la distance sur la localisation d'une facilité</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de colloque</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Didier Josselin</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://hal.archives-ouvertes.fr/hal-03503727">https://hal.archives-ouvertes.fr/hal-03503727</a></td>
+					</tr>
+					<tr>
+					<th>Collection</th>
+						<td>Territoire(s) et numérique. Innovations, mutations et décision</td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Avignon, France</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>ESPACE - CNRS - Université d'Avignon</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021-06</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>21/09/2022 à 17:50:49</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>HAL Archives Ouvertes</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>La première loi de la géographie de Waldo Tobler stipule que tous les objets sont en relation mais que ceux
+qui sont plus proches le sont davantage (Montello et al., 2003, Grasland, 2010). Cette relation met en
+évidence l'importance de l'espace géographique et particulièrement de la distance dans sa valeur et sa
+signification : la proximité est mesurée par la distance. Mais la distance fait appel à des métriques dont
+l'usage par l'observateur et l'interprétation ne sont pas neutres.
+Derrière la première loi de Tobler se cache une seconde loi, moins géographique, mais plus spatiale, qui
+dicte en partie la façon dont on peut évaluer des relations en géographie (Josselin, 2017). Cette seconde loi
+de la géographie s'appuie sur la distance (métrique) et l'organisation spatiale des lieux et objets
+géographiques. Notre réflexion est ancrée dans des travaux théoriques de généralisation de la norme Lp au
+problème de localisation optimale d'un centre servant k demandes dans un espace continu.
+La seconde loi de la géographie est révélée par une analyse de sensibilité (Drezner &amp; Hamacher, 2004) des
+centres en fonction de déplacements infinitésimaux de la localisation des points de demande. Le principe est
+de déplacer les points de demande et d'observer le changement de localisation du centre (Ciligot-Travain &amp;
+Josselin, 2009, Josselin &amp; Ciligot-Travain, 2013, 2014) selon la norme Lp.
+Les résultats dévoilent des normes ayant des propriétés nouvelles dans la localisation optimale de centre.
+Des relations (log-)linéaires entre les exposants p des distances utilisées et l'influence des lieux dans la
+détermination de la localisation optimale du centre apparaissent. La loi proposée présente de façon
+quasi-continue l'impact du choix des métriques sur la fonction d'influence spatiale. On y retrouve les normes
+classiquement utilisées en analyse spatiale : équité pour la norme Linfinie, égalité pour la norme L2, efficacité
+pour la norme L1. Cette seconde loi montre à quel point la relation entre une facilité et sa demande est liée à
+la façon de calculer la proximité entre la demande et le centre. Elle se généralise à travers les échelles et
+relativise la loi de Tobler ou tout autre loi impliquant l'usage de la distance, dont on pourrait penser qu'elle est
+relativement peu influente sur la localisation optimale du centre.
+La relation générale entre l'influence et la distance au centre c s'exprime en fonction de la valeur p de la</td>
+					</tr>
+					<tr>
+					<th>Titre des actes</th>
+						<td>57è colloque de l'Association de Sciences Régionale de Langue Française (ASRDLF)</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 17:50:49</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 17:55:02</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>distance</li>
+					<li>TTT-HAL</li>
+					<li>localisation optimale</li>
+					<li>loi de Tobler</li>
+					<li>Loi géographique</li>
+				</ul>
+			</li>
+
+
+			<li id="item_N5NKESYY" class="item bookSection">
+			<h2>Waldo Tobler</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Chapitre de livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>P. Hubbart</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Rob Kitchin</td>
+					</tr>
+					<tr>
+					<th>Édition</th>
+						<td>Sage Publications, Inc</td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>London</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>Sage</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Titre du livre</th>
+						<td>Key Thinkers on space and Place</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 14:56:45</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 14:58:44</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_SEMIEAYC" class="item webpage">
+			<h2>Computing Space II: Taking Waldo Tobler’s Geography 482 | Worlds Revealed: Geography &amp; Maps at The Library Of Congress</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Page Web</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>John Hessler</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>//blogs.loc.gov/maps/2015/12/taking-waldo-toblers-geography-482/</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2015-12-28</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Library Catalog: blogs.loc.gov</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>01/06/2020 à 14:43:24</td>
+					</tr>
+					<tr>
+					<th>Type de site Web</th>
+						<td>webpage</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>eng</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>A blog post at "Worlds Revealed: Geography &amp; Maps at The Library Of Congress" on 2015-12-28.</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Computing Space II</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 14:43:24</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>01/06/2020 à 14:45:08</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Pièces jointes</h3>
+				<ul class="attachments">
+					<li id="item_BPJHSWUH">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_4W2KV24X" class="item presentation">
+			<h2>Global City revisited by Tobler's first law of géography</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Présentation</td>
+					</tr>
+					<tr>
+						<th class="presenter">Présentateur</th>
+						<td>Claude Grasland</td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Montreux 'Suisse)</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2007 (7/11)</td>
+					</tr>
+					<tr>
+					<th>Intitulé de la réunion</th>
+						<td>15TH European Colloquium on Theoretical and Quantitative Geography</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>This paper propose to examine if Waldo Tobler’s first law of 
+geography “ everything is related to everything else, but near things 
+are more related than distant things” (Tobler, 1970) is still valid in a
+ global world where many authors consider that distance in general and 
+physical distance in particular are less and less important for the 
+understanding of economic, political and social dynamics. Focusing on a 
+“space of flows” rather than a “space of places” as it is proposed by 
+many authors in their research on Global City does not mean that 
+physical distance has to be  excluded from spatial interaction models, 
+on the contrary.  We propose to explore a variant  of Tobler’s classical
+ model of spatial interaction  - .(Fij.Dij) = Ai + Bj -  in order to 
+demonstrate that the “movement” (product of flows by physical distance) 
+is a much more interesting factor for the description of interaction 
+between cities than the classical amount of flows. The advantage of this
+ new formulation are both conceptual, methodological and empirical as it
+ is demonstrated by an application to the air flows between world cities
+ in 2000.  A new organization of the network of world cities according 
+to air flows is elaborated which is more complex and less hierarchical 
+than the one proposed in previous works. The paradox of the 
+demonstration is that the introduction of distance support much more the
+ assumption of a multipolarised and interlinked world than  usual works 
+based on the location of global firms or the analysis of flows  non 
+weighted by distance.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>05/06/2020 à 14:01:27</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>05/06/2020 à 14:04:47</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_GN3WUQW8" class="item bookSection">
+			<h2>Spatial analysis of social facts. A tentative theoretical 
+framework  derived from Tobler’s first law of geography  and Blau’s 
+multilevel structural theory of society</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Chapitre de livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Claude Grasland</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>François Bavaud</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Christophe Mager</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://halshs.archives-ouvertes.fr/halshs-00410669|https://serval.unil.ch/resource/serval:BIB_05FBCD424B3F.P001/REF.pdf">https://halshs.archives-ouvertes.fr/halshs-00410669|https://serval.unil.ch/resource/serval:BIB_05FBCD424B3F.P001/REF.pdf</a></td>
+					</tr>
+					<tr>
+					<th>Collection</th>
+						<td>UNIL • FGSE Workshop</td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Lausanne, Switzerland</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>FGSE, University of Lausanne</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>117-174</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-2-940368-08-2</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2009</td>
+					</tr>
+					<tr>
+					<th>N° ds la coll.</th>
+						<td>series N° 2</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>This document presents an attempt to build a theoretical 
+framework for the spatial analysis of social facts, derived from 
+Tobler's first law of geography (‘Everything is related to everything 
+else, but near things are more related than distant things') and Blau's 
+theory of macro sociology and multilevel structural analysis. At 
+individual level four basic times of position and interaction are 
+defined (geographical/sociological and discrete/continuous). It is then 
+necessary to discuss the effects of scale aggregation and time dynamics 
+on the elementary levels of position and interaction. This part is 
+illustrated by examples about airflows between world cities in 2000 and 
+euro coins diffusion across borders between 2002 and 2007.</td>
+					</tr>
+					<tr>
+					<th>Titre du livre</th>
+						<td>Handbook of Quantitative Geography</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>05/06/2020 à 13:53:21</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 17:18:55</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+				</ul>
+			</li>
+
+
+			<li id="item_HWV55C7F" class="item journalArticle">
+			<h2>The Validity and Usefulness of Laws in Geographic Information Science and Geography</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Michael F. Goodchild</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1111/j.1467-8306.2004.09402008.x">https://doi.org/10.1111/j.1467-8306.2004.09402008.x</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>94</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>300-303</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Annals of the Association of American Geographers</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0004-5608</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>June 1, 2004</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Routledge
+_eprint: https://doi.org/10.1111/j.1467-8306.2004.09402008.x</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10/dmjdr7">10/dmjdr7</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>01/06/2020 à 15:08:19</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>Taylor and Francis+NEJM</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>CC - Goodchild, s'intéresse à la validité et à l'utilité de la
+ TFL dans le contexte de la GIScience. Il présente son point de vue sur 
+la relation entre les SIG et la géographie, suivi d'une brève 
+introduction sur les SIG et souligne le rôle des principes généraux dans
+ les SIG. Il afﬁrme le statut et l'utilité de la TFL dans la géographie 
+en général et les SIGciences en particulier. La question plus générale 
+est de savoir s'il est possible de s'appuyer sur la contribution de 
+Tobler pour aller de l'avant.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 15:08:19</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>12/02/2021 à 21:50:26</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Pièces jointes</h3>
+				<ul class="attachments">
+					<li id="item_UBDBC4RR">Snapshot					</li>
+					<li id="item_96AF9R92">Version soumise					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_UFASVWGF" class="item journalArticle">
+			<h2>Waldo Tobler (1930-2018). In memoriam</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>N. Frančulaand</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>M. Lapain</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://kig.kartografija.hr/index.php/kig/article/view/821/1516,">https://kig.kartografija.hr/index.php/kig/article/view/821/1516,</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>17</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>29</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>KiG (Cartography and Geoinformation),Zagreb (Croatie)</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>Croate En</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 14:53:55</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>12/02/2021 à 21:50:10</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>⛔ No DOI found</li>
+				</ul>
+			</li>
+
+
+			<li id="item_5DAGBQIL" class="item bookSection">
+			<h2>Tobler Waldo (1930--)</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Chapitre de livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>R. Flowerdew</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Waef Barney</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://dx.doi.org/10.4135/9781412939591.n1144">http://dx.doi.org/10.4135/9781412939591.n1144</a></td>
+					</tr>
+					<tr>
+					<th>Édition</th>
+						<td>Sage Knowledge</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2010</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Titre du livre</th>
+						<td>Encyclopedia of geography</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 14:45:26</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 14:50:19</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_LQRUZDK9" class="item webpage">
+			<h2>Esri News - Fall 1999 ArcNews -- Dr. Waldo Tobler Presented the Lifetime Achievement in GIS Award</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Page Web</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>ESRI</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.esri.com/news/arcnews/fall99articles/08-drwaldo.html">https://www.esri.com/news/arcnews/fall99articles/08-drwaldo.html</a></td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1999</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>01/06/2020 à 15:42:07</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 15:42:07</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>01/06/2020 à 15:42:45</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Pièces jointes</h3>
+				<ul class="attachments">
+					<li id="item_SDMN6BSX">Esri News - Fall 1999 ArcNews -- Dr. Waldo Tobler Presented the Lifetime Achievement in GIS Award					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_W234834T" class="item journalArticle">
+			<h2>Waldo Tobler: Remembering a genius</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Danny Dorling</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Benjamin Hennig</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1080/00087041.2018.1507181">https://doi.org/10.1080/00087041.2018.1507181</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>55</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>303-304</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>The Cartographic Journal</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0008-7041</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>July 3, 2018</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Taylor &amp; Francis
+_eprint: https://doi.org/10.1080/00087041.2018.1507181</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10/ghz78c">10/ghz78c</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>01/06/2020 à 14:42:11</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>Taylor and Francis+NEJM</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Waldo Tobler</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 14:42:11</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>09/02/2021 à 14:40:44</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Pièces jointes</h3>
+				<ul class="attachments">
+					<li id="item_JXRIPTF6">Full Text PDF					</li>
+					<li id="item_MFDKPYTA">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_5BH237Z3" class="item bookSection">
+			<h2>GIS or Geographic Information Systems</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Chapitre de livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>M. N. DeMers</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.britannica.com/technology/GIS">https://www.britannica.com/technology/GIS</a></td>
+					</tr>
+					<tr>
+					<th>Collection</th>
+						<td>GIS COMPUTER SYSTEM</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>Encyclopaedia Britannica,</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Titre du livre</th>
+						<td>Encyclopaedia Britannica, Computer System,</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 15:17:45</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 15:24:29</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_FZETSZVT" class="item presentation">
+			<h2>Travaux de W. Tobler dans le domaine des SIG, à l'occasion de la remise du prix ESRI</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Présentation</td>
+					</tr>
+					<tr>
+						<th class="presenter">Présentateur</th>
+						<td>Jack Dangermond</td>
+					</tr>
+					<tr>
+						<th class="presenter">Présentateur</th>
+						<td>W. R. Tobler</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.esri.com/news/arcnews/fall99articles/08-drwaldo.html">https://www.esri.com/news/arcnews/fall99articles/08-drwaldo.html</a></td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1999</td>
+					</tr>
+					<tr>
+					<th>Type</th>
+						<td>remise de prix et allocution</td>
+					</tr>
+					<tr>
+					<th>Intitulé de la réunion</th>
+						<td>ArcNews on line</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 14:15:08</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 14:19:19</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_SUBNNETP" class="item presentation">
+			<h2>Waldo Tobler memorial Session</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Présentation</td>
+					</tr>
+					<tr>
+						<th class="presenter">Présentateur</th>
+						<td>S Crede</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.geo.uzh.ch/en/units/giva/news0/ICC2019.html">https://www.geo.uzh.ch/en/units/giva/news0/ICC2019.html</a></td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Tokyo</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>in News, University of Zurich</td>
+					</tr>
+					<tr>
+					<th>Type</th>
+						<td>Présentation de GIVA (Geographic Information Visualization and Analysis)</td>
+					</tr>
+					<tr>
+					<th>Intitulé de la réunion</th>
+						<td>The International Cartographic Conference 2019</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 14:19:19</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 14:22:16</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_AKURNVY6" class="item journalArticle">
+			<h2>Waldo R. Tobler (1930–2018)</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Keith C. Clarke</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1080/15230406.2018.1447399">https://doi.org/10.1080/15230406.2018.1447399</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>45</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>287-288</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Cartography and Geographic Information Science</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1523-0406</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>July 4, 2018</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Taylor &amp; Francis
+_eprint: https://doi.org/10.1080/15230406.2018.1447399</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10/gc95p4">10/gc95p4</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>01/06/2020 à 14:40:45</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>Taylor and Francis+NEJM</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 14:40:45</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>09/02/2021 à 14:40:44</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Pièces jointes</h3>
+				<ul class="attachments">
+					<li id="item_Z44GGU6Z">Full Text PDF					</li>
+					<li id="item_88BF3QHC">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_ANPL4QBD" class="item blogPost">
+			<h2>Waldo Tobler (1930-2018)</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Billet de blog</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Colette Cauvin-Reymond</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://cybergeo.hypotheses.org/230">https://cybergeo.hypotheses.org/230</a></td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>19/3/2018</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en français</td>
+					</tr>
+					<tr>
+					<th>Titre du blog</th>
+						<td>cybergeo conversation</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 14:27:46</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 17:19:11</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+				</ul>
+			</li>
+
+
+			<li id="item_LHXH9K8R" class="item journalArticle">
+			<h2>Interaction spatiale et cartographie : les solutions de W. Tobler</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Colette Cauvin</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Henry Reymond</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.persee.fr/doc/espos_0755-7809_1991_num_9_3_1489">https://www.persee.fr/doc/espos_0755-7809_1991_num_9_3_1489</a></td>
+					</tr>
+					<tr>
+					<th>Autorisations</th>
+						<td>free</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>9</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>467-485</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Espace Populations Sociétés</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1991</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Persée - Portail des revues scientifiques en SHS</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10/dj2f69">10/dj2f69</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>01/06/2020 à 15:14:44</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>www.persee.fr</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>fr</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Cet article a pour but de présenter brièvement une des 
+directions de recherche privilégiée par le Professeur W.R. Tobler : les 
+modèles d'interaction spatiale et la cartographie associée. Des travaux 
+successifs et complémentaires aboutissent - d'une part, à la mise au 
+point d'un modèle simple permettant de retrouver les chemins des 
+échanges entre lieux à partir des seuls effectifs marginaux 
+(c'est-à-dire le total des départs et des arrivées pour chaque lieu), - 
+d'autre part à des représentations cartographiques nouvelles sous forme 
+de champ vectoriel, de lignes d'égales attractivités... Le modèle, 
+appartenant à la famille des modèles gravitaires fermés, a pour 
+originalité principale l'additivité des composantes du numérateur et, 
+dans sa forme élémentaire, l'absence de pondération de la distance.</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Interaction spatiale et cartographie</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 15:14:44</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 17:32:45</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+				</ul>
+			</li>
+
+
+			<li id="item_NHNHEKFA" class="item journalArticle">
+			<h2>De la cartographie de report à la cartographie 
+transformationnelle. Propositions pour la représentation des données de 
+population</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Colette Cauvin</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Christophe Enaux</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.persee.fr/doc/espos_0755-7809_1991_num_9_3_1490">https://www.persee.fr/doc/espos_0755-7809_1991_num_9_3_1490</a></td>
+					</tr>
+					<tr>
+					<th>Autorisations</th>
+						<td>free</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>9</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>487-503</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Espace Populations Sociétés</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1991</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Persée - Portail des revues scientifiques en SHS</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10/d669hb">10/d669hb</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>01/06/2020 à 15:15:57</td>
+					</tr>
+					<tr>
+					<th>Texte de la coll.</th>
+						<td>Méthodes de cartographie statistique des populations - Statistical population mapping</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>www.persee.fr</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>fre</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Cet article propose quelques méthodes nouvelles pour la 
+représentation spatiale de données de population, en soulignant leurs 
+intérêts et leurs dangers. Si les transformations cartographiques 
+conduisent à des cartes comparables et reproductibles par tous, elles ne
+ peuvent être utilisées pour n'importe quelle variable ou dans n'importe
+ quelles circonstances. La cartographie voit s'ouvrir des directions de 
+recherche originales qu'il convient de tester et d'approfondir, tout en 
+conservant un regard critique.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 15:16:31</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 17:31:05</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+				</ul>
+			</li>
+
+
+			<li id="item_8FBPYX8J" class="item book">
+			<h2>Cartographie thématique. 4, Des transformations renouvelées</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Colette Cauvin</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Francisco Escobar</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Abdelaziz Serradj</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Jean-Philippe Antoni</td>
+					</tr>
+					<tr>
+					<th>Collection</th>
+						<td>Traité IGAT : Information géographique et aménagement du territoire</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Paris, France</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>Hermes science : Lavoisier</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-2-7462-1252-7</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2008</td>
+					</tr>
+					<tr>
+					<th>Nb de volumes</th>
+						<td>5</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>Library Catalog - www.sudoc.abes.fr</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>français</td>
+					</tr>
+					<tr>
+					<th>Nb de pages</th>
+						<td>198</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 17:34:16</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 17:40:25</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+				</ul>
+			</li>
+
+
+			<li id="item_SQ55HBN5" class="item book">
+			<h2>Cartographie thématique. 1, Une nouvelle démarche</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Colette Cauvin</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Francisco Escobar</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Abdelaziz Serradj</td>
+					</tr>
+					<tr>
+					<th>Collection</th>
+						<td>Traité IGAT : Information géographique et aménagement du territoire</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Paris, France</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>Hermes science : Lavoisier</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-2-7462-1252-7</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2007</td>
+					</tr>
+					<tr>
+					<th>Nb de volumes</th>
+						<td>5</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>Library Catalog - www.sudoc.abes.fr</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>français</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Cet ouvrage, en 5 volumes, porte sur la cartographie 
+thématique. La carte y est considérée comme une construction issue de 
+processus de transformations, comprenant des étapes successives, placées
+ dans un ordre strict, intégrées dans un raisonnement logique et 
+impliquant des choix. Les deux premiers volumes regroupent les 
+transformations indispensables pour la production de toute carte 
+thématique, appuyée sur la démarche scientifique.</td>
+					</tr>
+					<tr>
+					<th>Nb de pages</th>
+						<td>284; iv</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 17:34:21</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 17:40:16</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+				</ul>
+			</li>
+
+
+			<li id="item_J4TNHCMD" class="item journalArticle">
+			<h2>Une méthode de comparaison de données localisées : la régression 
+bidimensionnelle. Application à la perception de configurations dans la 
+ville de Strasbourg</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Colette Cauvin</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.persee.fr/doc/spgeo_0046-2497_1984_num_13_2_3909">https://www.persee.fr/doc/spgeo_0046-2497_1984_num_13_2_3909</a></td>
+					</tr>
+					<tr>
+					<th>Autorisations</th>
+						<td>free</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>13</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>94-109</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>L'Espace géographique</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1984</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Persée - Portail des revues scientifiques en SHS</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.3406/spgeo.1984.3909">10.3406/spgeo.1984.3909</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>21/09/2022 à 17:47:46</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>www.persee.fr</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>fre</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Une méthode pour comparer des surfaces homologues définies par
+ des points déterminés par leurs coordonnées, a été proposée et mise au 
+point par le professeur W.R. Tobler. Considérée comme l'équivalent d'une
+ régression dans un espace bidimensionnel, elle comprend deux étapes (un
+ ajustement et une interpolation), et aboutit à des résultats numériques
+ sur la qualité des modèles et les écarts entre les surfaces, et des 
+représentations graphiques (vecteurs de déplacements, surface déformée, 
+cartes des distorsions...). Appliquée à des configurations cognitives de
+ la ville de Strasbourg, elle fait ressortir en particulier retirement 
+perçu Est/Ouest, et le resserrement Nord/Sud.</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Une méthode de comparaison de données localisées</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 17:47:46</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 17:48:22</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+				</ul>
+				<h3 class="notes">Notes :</h3>
+				<ul class="notes">
+					<li id="item_JCYERKGQ">
+<div><div data-schema-version="8"><p>Pb d’identification du laboratoire sur HAL !</p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_M3KWKA4I" class="item dictionaryEntry">
+			<h2>Waldo Tobler</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Entrée de dictionnaire</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Colette Cauvin</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://hypergeo.eu/waldo-tobler/">https://hypergeo.eu/waldo-tobler/</a></td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2020-05-26T21:51:44+00:00</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>22/09/2022 à 11:10:49</td>
+					</tr>
+					<tr>
+					<th>Titre du dict.</th>
+						<td>HyperGeo</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>fr-FR</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Waldo Tobler (1930-2018), géocartographe d’exception à la 
+double nationalité, américaine et suisse, a genius écrit Dorling 
+(Dorling, Henning, 2018), a fortement influencé la communauté 
+internationale des géographes et des cartographes dès la fin des années 
+1950. Connaître sa jeunesse . est essentiel pour comprendre ses choix, 
+ses orientations scientifiques, et son regard sur le monde. […]</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>22/09/2022 à 11:10:49</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>22/09/2022 à 11:11:47</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+				</ul>
+			</li>
+
+
+			<li id="item_3BRBE6GD" class="item presentation">
+			<h2>L'accessibilité aux lieux : isochrones versus anamorphose</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Présentation</td>
+					</tr>
+					<tr>
+						<th class="presenter">Présentateur</th>
+						<td>Anne-Christine Bronner</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://hal.archives-ouvertes.fr/hal-03771488">https://hal.archives-ouvertes.fr/hal-03771488</a></td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Toulouse, France</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>14-16/6/2021</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>21/09/2022 à 18:45:28</td>
+					</tr>
+					<tr>
+					<th>Type</th>
+						<td>Colloque</td>
+					</tr>
+					<tr>
+					<th>Intitulé de la réunion</th>
+						<td>Colloque Cartomob - Tous (im)mobiles, tous cartographes ?</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>fr</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>La carte de l’accessibilité ferroviaire et routière à Paris permettra d’aborder la représentation
+des distances en mobilisant la régression bidimensionnelle, méthode développée par W.
+Tobler et déployée dans le cadre de différentes recherches dans les années 1980 à
+Strasbourg par Colette Cauvin et ses collègues : analyse comparative de réseaux de transport,
+analyse des espaces cognitifs, cartes historiques...
+La présentation décryptera les différentes étapes de la construction, les transformations
+cartographiques qui permettent de passer des distances aux localisations, puis de comparer
+positions dans l’espace-temps et positions géographiques. De nombreux résultats statistiques
+et cartographiques permettent d’enrichir l’analyse.</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Tribute to Tobler</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 18:45:28</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 18:48:40</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>cartographie</li>
+					<li>TTT-HAL</li>
+					<li>anamorphoses</li>
+					<li>Cauvin</li>
+					<li>distances</li>
+					<li>distances-temps</li>
+					<li>isochrones</li>
+					<li>méthodes</li>
+					<li>Tobler</li>
+				</ul>
+			</li>
+
+
+			<li id="item_EP9IQKFJ" class="item journalArticle">
+			<h2>A Paper Related to Everything but More Related to Local Things</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Trevor J. Barnes</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1111/j.1467-8306.2004.09402004.x">https://doi.org/10.1111/j.1467-8306.2004.09402004.x</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>94</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>278-283</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Annals of the Association of American Geographers</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0004-5608</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>June 1, 2004</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Routledge
+_eprint: https://doi.org/10.1111/j.1467-8306.2004.09402004.x</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10/bxjxmn">10/bxjxmn</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>01/06/2020 à 14:55:13</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>Taylor and Francis+NEJM</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>CC-L'auteur discute des éléments de base des lois et tente de 
+restaurer les contextes historiques et locaux qui ont nourri Tobler 
+lorsqu'il a écrit cette loi. Barnes rejette l'universalité des lois et 
+estime au contraire que toutes les lois universelles sont nécessairement
+ des connaissances locales déguisées. La TFL est pour lui une 
+connaissance locale.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 14:55:13</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>09/02/2021 à 14:40:44</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Pièces jointes</h3>
+				<ul class="attachments">
+					<li id="item_DFRECG8R">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_3LTTEJ7A" class="item conferencePaper">
+			<h2>Flow mapping vs movement mapping: a theoretical and cartographic demonstration of their significance at a world scale</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de colloque</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Françoise Bahoken</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Claude Grasland</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Christine Zanin</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://hal.archives-ouvertes.fr/hal-01217237">https://hal.archives-ouvertes.fr/hal-01217237</a></td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Bari, Italie</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>Politecnico di Bari</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>3p</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2015-09</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>21/09/2022 à 18:55:22</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>HAL Archives Ouvertes</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>We observed that mapping flow is to vary the size of a 
+straight directed link between origin (i) and destination (j) places, 
+proportionally to a flow matrix value (Fij). According to Bertin's 
+(1967), this practice reflects the exact application of the visual 
+variable 'size' on the flow feature. Every other aesthetics and semiotic
+ principles - as colored or curvilinear features - can be taken into 
+account without fundamental consequences. This is very popular since 
+earlier flow maps. It even seems to be the unique way to map flow, but 
+is it relevant? Is it obvious that flow mapping raises one dimension of 
+the features while the human eye may perceive several? Assuming that 
+first hypothesis is exact means in fact that the human eye will perceive
+ only one feature's dimension: its width (Fij). Is it really the case? 
+We raise a reasonable doubt about the relevance of this assumption and 
+will examine it in this paper. Our aim is to demonstrate the legitimacy 
+of the conventional approach of flow mapping which leads to the first 
+hypothesis. To do this, we will place us in the theoretical framework 
+defined by Grasland (2009) leading to a joint (analysis of positions and
+ flow. However, the present proposed perspective differs as the analysis
+ is focused on the perceived information on a flow map. Therefore, we'll
+ assume also Bertin's (1967) and Tobler's (1987) cartographic principles
+ for mapping statistical flow data. We will then examine the 
+corresponding cartographic process from two cognitive perspectives, 
+regarding both semiotic and semantic aspects of the feature's flow map. 
+We will explore a set of four assumptions (fig. 1). The fig. 1 describes
+ through assumptions n°1 to n°4 what human eye perceived on a flow map 
+and what it means. Firstly: the eye perceives only the feature's width 
+(ass. n°1). The second assumption suggests the possibility of the 
+perception of the feature's visual area, i.e regarding the amount of 
+color (ass. n°2). It will lead us in a third assumption to the perceived
+ geometric feature's area, that is to say the arithmetic product of the 
+feature's width and length (ass. n°3). This theoretical semantic 
+switching is not trivial; it corresponds to the perception of a new 
+dimension: the cartographic distance, derived from the formal 'graphic 
+distance' (Müller, 1979; Tobler, 1997; L'hostis, 2003), that is equal to
+ the feature's length (Lij) perceived on the map. This effective joint 
+perception of (Lij) and (Fij) leads us to introduce geographic space in 
+flow mapping process, considering Tobler's (1969) first law of 
+geography. This seems in other words to integrate the fact that flow 
+values (Fij) are projected over a geographical area, consisting of (i,j)
+ places that are more or less distant (Dij) or close in the reality... 
+The places' remoteness influences the significance of the perceived flow
+ value as well as in a flow map (but not in a plan as a spatialized 
+graph which has no geographic properties). Assuming the fourth 
+hypothesis (ass. n°4) is exact involves us carrying out a map of 
+movement (Mij) rather than a map of flow (Fij). We demonstrate on 
+selected bilateral international trade flows from Chelem database that 
+if the cartographic construction of (Fij) and (Mij) is the same and 
+unique (ass. n°1 and n°4 are equals), they differ only in their 
+interpretation (Fij) C (Mij) for one main raison: at a world scale, flow
+ mapping can only be an approximation of the geographical movement (fig.
+ 2), as was done earlier by Minard (1862).</td>
+					</tr>
+					<tr>
+					<th>Titre des actes</th>
+						<td>ECTQG 2015 - 19th European colloquium of Theoretical and Quantitative Geography</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Flow mapping vs movement mapping</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 18:55:22</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 18:56:12</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+					<li>CARTOGRAPHIE</li>
+					<li>CARTE</li>
+					<li>FLOW MAPPING</li>
+					<li>FLUX DE MARCHANDISE</li>
+					<li>FLUX DE MARCHANDISES</li>
+					<li>INTERNATIONAL</li>
+					<li>MAP COGNITION</li>
+					<li>MAP VISUALIZATION</li>
+					<li>MOVEMENT MAPPING</li>
+					<li>ORIGINE DESTINATION</li>
+					<li>PROJECTION</li>
+					<li>WORLD SCALE</li>
+				</ul>
+			</li>
+
+
+			<li id="item_6PEV4M6P" class="item journalArticle">
+			<h2>L’approche cartographique de la décomposition des matrices de flux</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Françoise Bahoken</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://mappemonde-archive.mgm.fr/num44/articles/art14404.html">http://mappemonde-archive.mgm.fr/num44/articles/art14404.html</a></td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>116 (4-2014)</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Mappemonde</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1769-7298</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2015</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>fr</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Indépendamment de sa complexité graphique intrinsèque (l’effet
+ spaghetti), la cartographie directe des matrices de flux denses revêt 
+souvent un aspect compact, caractéristique d’un effet d’amalgame de 
+l’information représentée. Cet effet résulte du mélange d’informations 
+de nature différentes sur la même figure: celles qui portent sur la 
+dynamique du système de flux et celles qui relèvent de sa stabilité. 
+Pour y remédier, il convient de décomposer la matrice de flux, au 
+préalable de sa cartographie.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 17:21:10</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 17:27:59</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+				</ul>
+			</li>
+
+
+			<li id="item_8D3WPEA9" class="item journalArticle">
+			<h2>Pour le renouvellement de la sémiologie de la carte de flux</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Françoise Bahoken</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://halshs.archives-ouvertes.fr/halshs-02937125">https://halshs.archives-ouvertes.fr/halshs-02937125</a></td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>222</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Cartes &amp; géomatique</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2014/12/01</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>21/09/2022 à 17:24:34</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>halshs.archives-ouvertes.fr</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>fr</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>L'enseignement classique des méthodes de cartographie 
+statistique des flux est entaché d'un verrou spécifique lié à la 
+difficulté d'appréhension des données disponibles dans le tableau de 
+départ, la matrice de flux origine-destination, et à leur 
+représentation. Face à des difficultés méthodologiques de différentes 
+natures, la carte de flux est, dès lors, toujours réalisée sur une 
+partie des données disponibles. Elle est aussi souvent focalisée sur les
+ lieux, en raison de difficultés spécifiques au maniement du figuré 
+orienté, la flèche. L'objectif d'une carte de flux est pourtant de 
+représenter (aussi) la partie de la matrice qui correspond à la quantité
+ transférée entre les lieux, le flux et pas seulement son effet sur les 
+lieux. Cela oblige à la résolution des problèmes rencontrés qui peut 
+être réalisée à plusieurs moments du processus de cartographie. Nous 
+proposons d'examiner des solutions qui sont d'ordre exclusivement 
+sémiologique, qui autorisent la représentation de l'ensemble de 
+l'information. Plutôt que de proposer un historique de la cartographie 
+des flux, ou une critique des solutions existantes, nous proposons une 
+nouvelle perspective d'analyse cartographique des matrices de flux. En 
+nous appuyant sur les fondamentaux de l'enseignement classique de la 
+sémiologie de la carte de flux (Bertin, 1967 ; Tobler, 1982, 1987), nous
+ montrons l'intérêt du recours à des principes empiriques développés 
+dans le champ de l'informatique graphique (Mac Eachren, 1995). Leur 
+application opère un double bouleversement des codes esthétiques et 
+sémiologiques de la figure, elle renforce aussi la perception des motifs
+ généraux permettant le renouvellement de la sémiologie de la carte de 
+flux.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 17:24:34</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 17:28:45</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+				</ul>
+				<h3 class="attachments">Pièces jointes</h3>
+				<ul class="attachments">
+					<li id="item_5DRGZSFL">Full Text PDF					</li>
+					<li id="item_KVWUELHT">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_DIF6WZEE" class="item journalArticle">
+			<h2>L’intérêt du raisonnement logique dans l’analyse cartographique des flux. L’exemple de migrations internes</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Françoise Bahoken</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://rig.revuesonline.com/article.jsp?articleId=19460">http://rig.revuesonline.com/article.jsp?articleId=19460</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>24</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>231-249</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Revue internationale de géomatique</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>12605875</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2014-06-30</td>
+					</tr>
+					<tr>
+					<th>Abrév. de revue</th>
+						<td>Revue internationale de géomatique</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.3166/rig.24.231-249">10.3166/rig.24.231-249</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>21/09/2022 à 17:25:23</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>RIG</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 17:25:23</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 17:25:50</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+				</ul>
+			</li>
+
+
+			<li id="item_QQIW6BSI" class="item conferencePaper">
+			<h2>Cartograflow. Filtering Origin-Destination matrices For Flow Mapping Purposes in R</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de colloque</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Françoise Bahoken</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://halshs.archives-ouvertes.fr/halshs-02937178">https://halshs.archives-ouvertes.fr/halshs-02937178</a></td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Mondorf-les-Bains, Luxembourg</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019/09/09</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>21/09/2022 à 18:50:55</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>halshs.archives-ouvertes.fr</td>
+					</tr>
+					<tr>
+					<th>Intitulé du colloque</th>
+						<td>European Colloquium on Quantitative and Theoretical Geography (ECQTG'19), Special Session “Spatial interactions”.</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>The purpose of this communication is to present the 
+implementation of {Cartograflow}, an R/Rstudio package dedicated to 
+filtering Origin-Destination matrices for flow mapping purposes. It’s 
+first main interest is to combine the preparation of flow dataset and 
+their spatial representation within the same package. The second main 
+interest of {Cartograflow} is that the proposed filtering functions are 
+specifically part of the corpus of quantitative analysis methods in 
+geography. This is why they are particularly interested, for examples, 
+in the concentration of information, as well as the role of the 
+geographic space in terms of the spacing of places of origin and 
+destination by the distance travelled by the flow (in terms of distance 
+and neighborhood). Finally, it is to be part of an open and reproducible
+ research approach (Peng, 2011), compatible with existing solutions - 
+mainly {sp}, {sf} and {cartography} (Giraud, Lambert, 2016), while 
+opening possibilities to data describing spatial interactions patterns. 
+Mapping flows to depict spatial interactions patterns raises specific 
+problems related to the complexity of the information and its graphical 
+representation (the so-called spaghetti effect). These problems are 
+relate to the analysis of both statistical and geographical data, for 
+thematic cartography purposes. If they can be solved from different 
+perspectives, solutions that can be provided are either theoretical, 
+methodological or lies in the development of specific tools as Tobler 
+said (Tobler, 1967, 1970) to implement proposals in a given 
+technological context. Considering the general interest in research 
+issues related to the visualization of large graphs, particularly in 
+interactive environments, one might think that the cartography of 
+spatial interactions patterns have benefited from this context. 
+Unfortunately, this prospect is illusory, except in a few cases. Geoweb 
+applications dedicated to flows remain in the minority. The existing 
+ones are limited to the direct display of flow dataset: they do not 
+allow data processing that would enhance the figure. On the Geographic 
+Information Systems side, despite efforts, the main software solutions, 
+whether free or not, do not really help in the production of significant
+ flow maps. There is also a recurring problem related to the management 
+of the intrinsic complexity of relational data, which need at least 
+filtered procedures before graphic representation. If issues regarding 
+matrix filtering are carry out outside the mapping process, it is 
+important to consider it to make an interesting map, i.e. useful for 
+analysis in the social sciences and humanities. This is why we offer a 
+new R/Rtudio package: {Cartograflow} by structuring and extending the 
+appendices of Bahoken (2016). The purpose of this communication is to 
+present the implementation of {Cartograflow}, an R/Rstudio package 
+dedicated to filtering Origin-Destination matrices for flow mapping 
+purposes. It’s first main interest is to combine the preparation of flow
+ dataset and their spatial representation within the same package. The 
+second main interest of {Cartograflow} is that the proposed filtering 
+functions are specifically part of the corpus of quantitative analysis 
+methods in geography. This is why they are particularly interested, for 
+examples, in the concentration of information, as well as the role of 
+the geographic space in terms of the spacing of places of origin and 
+destination by the distance travelled by the flow (in terms of distance 
+and neighborhood). Finally, it is to be part of an open and reproducible
+ research approach (Peng, 2011), compatible with existing solutions - 
+mainly {sp}, {sf} and {cartography} (Giraut, Lambert, 2016), while 
+opening possibilities to data describing spatial interactions patterns. 
+References: Bahoken, F. (2016), Annexe : Programme R/Rstudio annexés, in
+ : Contribution à la cartographie d'une matrice de flux, Thèse en 
+Géographie - Sciences des territoires,: URL : 
+https://halshs.archives-ouvertes.fr/tel-01273776. - Giraud, T., &amp; 
+Lambert, N. (2016) Cartography: Create and integrate maps in your r 
+workflow. JOSS, 1(4). 
+doi:[10.21105/joss.00054](https://doi.org/10.21105/joss.00054) - Peng, 
+R. D. (2011), Reproducible research in computational science, Science, 
+334(6060), 1226–1227. - Tobler, W. R. (1967), Computer use in Geography,
+ Behavioral Sciences, n°12, pp. 57-58. - Tobler, W. R. (1970), 
+Experiments in migration mapping by computer, The American Cartographer,
+ vol. 14, n°2, pp. 155-163.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 18:50:55</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 18:53:15</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+				</ul>
+			</li>
+
+
+			<li id="item_XPQ2RQRF" class="item conferencePaper">
+			<h2>Cartographie des flux et production d'indicateurs sur l'intensité des échanges</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de colloque</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Françoise Bahoken</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://hal.archives-ouvertes.fr/hal-00996533">https://hal.archives-ouvertes.fr/hal-00996533</a></td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Nice, France</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>2p</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2012/05/15</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>21/09/2022 à 18:56:33</td>
+					</tr>
+					<tr>
+					<th>Catalogue de bibl.</th>
+						<td>halshs.archives-ouvertes.fr</td>
+					</tr>
+					<tr>
+					<th>Intitulé du colloque</th>
+						<td>Colloque LIENS - Les Interfaces : Enjeux de Nature, de Sciences et de Société</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>fr</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>L’objet de la communication est de proposer, à la suite des 
+travaux de W. Tobler fondés sur la décomposition des matrices de flux, 
+une approche originale de la production d’indices descriptifs des flux, 
+au préalable de leur représentation cartographique. L’approche simplifie
+ l’analyse en s’appuyant sur les opérateurs (Min, Max) et les fonctions 
+logiques (ET, OU) définis dans le cadre d'un raisonnement flou. Nous 
+testons l’application successive d’une sélection d’indices élaborés et 
+discutons de leur pertinence au regard des résultats cartographiques 
+obtenus : du point de vue des liaisons et des espaces d’interfaces 
+révélés. Les interfaces sont appréhendées comme des zones de rupture 
+dans l’intensité des échanges, témoins de l’existence d’une frontière 
+entre des zones caractérisées par un système de relations 
+préférentielles.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>21/09/2022 à 18:56:33</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>21/09/2022 à 18:57:45</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>TTT-HAL</li>
+				</ul>
+				<h3 class="attachments">Pièces jointes</h3>
+				<ul class="attachments">
+					<li id="item_8MYLK69L">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_2KYWMB4Z" class="item presentation">
+			<h2>The Waldo Tobler Distinguished Lecture in GIScience</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Présentation</td>
+					</tr>
+					<tr>
+						<th class="presenter">Présentateur</th>
+						<td>AAAG group</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://aag-giss.org/competitions-awards/tobler-lectur">http://aag-giss.org/competitions-awards/tobler-lectur</a></td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>nd (2020 ?)</td>
+					</tr>
+					<tr>
+					<th>Type</th>
+						<td>Specialty Group,</td>
+					</tr>
+					<tr>
+					<th>Intitulé de la réunion</th>
+						<td>organisée par An Association of American Geographers Specialty Group</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>03/06/2020 à 14:35:07</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>03/06/2020 à 14:37:33</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes :</h3>
+				<ul class="notes">
+					<li id="item_ARJQ4VF3">
+<div><p>Texte sur le web :</p>
+<p>Texte de cette présentation</p>
+<p>If any one paradigm within cartography has an “intellectual leader,” 
+it is analytical cartography. Waldo Tobler originated (in the 1960s) and
+ nurtured (in the 1970s and 1980s) the idea of mathematical, 
+transformational, or analytical approach to the subject. Tobler laid out
+ the agenda for an analytical cartography in his seminal 1976 paper, 
+“Analytical Cartography,” published in the American Cartographer. This 
+paper, and Tobler’s ideas, had a profound effect on American academic 
+cartography” (A History of Twentieth Century American Academic 
+Cartography: McMaster, Robert B, Susanna McMaster, American Congress on 
+Surveying and Mapping, Cartography and Geographic Information Science, 
+29 305-320, 2002).</p>
+<p>Each year, the AAG Geographic Information Science and Systems 
+Specialty Group and the GIScience Journal Transactions in GIS 
+collaborate to honor the legacy of Waldo Tobler by hosting a sponsored 
+session, “The Waldo Tobler Distinguished Lecture in GIScience”, 
+featuring a leading light in the field of GIScience. Please join 
+AAG-GISS this year for an exciting and informative talk by a driving 
+force in the field of GIScience.</p></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_2NSPG5HX" class="item journalArticle">
+			<h2>Waldo Tobler (1930-2018)</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>AAAG</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://www.aag.org/cs/membership/tributes_memorials/sz/tobler_waldo">http://www.aag.org/cs/membership/tributes_memorials/sz/tobler_waldo</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>Memorials &amp; Tributes,</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1 page sur le web</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Association of American Geographers (AAG),</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>01/06/2020 à 15:23:43</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>12/02/2021 à 21:50:22</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>⛔ No DOI found</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>
